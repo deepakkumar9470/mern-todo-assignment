@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    align-items: center;
+    background:ghostwhite;
+    border: 1px solid gainsboro;
+    margin-left: 2rem;
+}
+.form-div input{
+    outline: none;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+.form-div label{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: 'Crete Round', serif;
+}
+.form-div input:focus{
+    outline: none;
+}
+
+button{
+    width: 100%;
+    outline:none;
+    border-radius: 5px;
+    color: white;
+    background: black !important;
+}
+button:hover{
+    color: black;
+    background: blue !important;
+}
+
+.table-div{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+.button button{
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    padding: 0.5rem;
+    margin-left: 3rem;
+}
